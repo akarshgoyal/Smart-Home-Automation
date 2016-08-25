@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+  <CommandSet xml:lang="en-US">
+    <CommandPrefix>BACH</CommandPrefix>
+    <Example> turn on my desk lights</Example>
+
+    <Command Name="DeskLightsOn">
+      <Example> turn on my desk lights </Example>
+      <ListenFor> turn on my desk lights </ListenFor>
+      <Feedback> Turning On Your Desk Lights... </Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="DeskLightsOff">
+      <Example> turn off my desk lights </Example>
+      <ListenFor> turn off my desk lights </ListenFor>
+      <Feedback> Turning Off Your Desk Lights...</Feedback>
+      <Navigate />
+    </Command>
+
+  </CommandSet>
+</VoiceCommands>
